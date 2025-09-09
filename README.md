@@ -1,7 +1,7 @@
 ULTRA-ROBO (Arduino Robot with Bluetooth & Ultrasonic Obstacle Avoidance)
 
 Abstract:
-Implemented a full pipeline in Arduino C to control a mobile robot with both manual and autonomous modes:
+Implemented a full pipeline in Arduino to control a mobile robot with both manual and autonomous modes:
 - Integrated Bluetooth communication for remote driving
 - Connected ultrasonic sensor (HC-SR04) + servo for environment scanning
 - Developed obstacle avoidance using left/right distance comparison
