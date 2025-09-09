@@ -8,7 +8,7 @@ Implemented a full pipeline in Arduino C++ to control a mobile robot with both m
 - Controlled DC motors via L298N driver for speed and direction
 - Implemented two autonomous strategies with different distance thresholds
 
-more detailed implementation can be found below:
+A more detailed implementation can be found below:
 
 setup()
 - Configures all motor driver pins (enA, enB, 9–12) as outputs
@@ -35,16 +35,16 @@ CompareDistance / CompareDistance1
 loop()
 - Reads Bluetooth command t
 - Executes manual controls:
-    > F → forward
-    > B → backward
-    > L → turn left
-    > R → turn right
-    > S → stop
+    > F → forward;
+    > B → backward;
+    > L → turn left;
+    > R → turn right;
+    > S → stop;
 
 - Executes autonomous modes:
-    > W → auto mode 1: scans ahead, avoids obstacles at 30–90 cm
-    > U → auto mode 2: variant with threshold at 15 cm
-    > w / u → stop auto modes
+    > W → auto mode 1: scans ahead, avoids obstacles at 30–90 cm;
+    > U → auto mode 2: variant with threshold at 15 cm;
+    > w / u → stop auto modes;
 
 Variables
 enA, enB – PWM pins for motor speed
